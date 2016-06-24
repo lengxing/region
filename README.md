@@ -19,3 +19,9 @@ Region插件主要用于地域选择使用，可以同时多个地区添加
 # 使用说明
 
 ![Example](/images/example_1.png)
+
+  HTML:
+
+  	<div class="row">
+	    <div data-ui="type:Region;id:test;name:region1"></div>
+	</div>
