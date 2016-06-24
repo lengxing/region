@@ -18,6 +18,8 @@ Region插件主要用于地域选择使用，可以同时多个地区添加
 
 # 使用说明
 
+  [Demo](http://htmlpreview.github.io/?https://github.com/lengxing/region/blob/master/Region_demo.html)
+
 ![Example](/images/example_1.png)
 
   HTML:
