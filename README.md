@@ -40,3 +40,7 @@ Region插件主要用于地域选择使用，可以同时多个地区添加
 
   	- jquery.js
   	- underscore.js
+
+  接口方法：
+
+  	- getRawValue 获取选择区域的数组值
