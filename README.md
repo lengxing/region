@@ -22,6 +22,21 @@ Region插件主要用于地域选择使用，可以同时多个地区添加
 
   HTML:
 
-  	<div class="row">
-	    <div data-ui="type:Region;id:test;name:region1"></div>
-	</div>
+  	<div id="region_test" class="ui-ctrl ui-region"></div>
+
+  Javascript:
+
+  	<script>
+        $(function () {
+            var options = {
+                main: "#region_test",
+                value: '268,25,10,778'
+            }
+            var region = new Region(options);
+        })
+    </script>
+
+  依赖：
+
+  	- jquery.js
+  	- underscore.js
